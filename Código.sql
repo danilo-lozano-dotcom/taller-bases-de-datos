@@ -81,6 +81,8 @@ VALUES (1, 1, 1, 15, 15*1000);
 
 SELECT nombre_cliente, id_pedido FROM Pedidos;
 
+SELECT nombre_producto FROM Productos;
+
 SELECT id_producto, cantidad, subtotal FROM Detalles_Pedidos;
 
 
