@@ -38,6 +38,7 @@ CREATE TABLE Detalles_Pedidos (
 );
 
 
+
 INSERT INTO Clientes (nombre_cliente, email, teléfono)
 VALUES ('Juan Pérez', 'juan.perez@gmail.com', 3218524478);
 
@@ -67,17 +68,12 @@ INSERT INTO Pedidos (nombre_cliente, fecha, total_compra)
 VALUES ('Juan Pérez', '08/03/2025', 15000);
 
 
-SELECT * FROM Clientes;
 
+SELECT * FROM Clientes;
 
 SELECT nombre_cliente FROM Clientes;
 
-
 SELECT * FROM Pedidos;
-
--- INSERT INTO Detalles_Pedidos (id_pedido, id_producto, id_cliente, cantidad, subtotal)
--- VALUES (1, 1, 1, 15, 15*1000);
-
 
 SELECT nombre_cliente, id_pedido FROM Pedidos;
 
