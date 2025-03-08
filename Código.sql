@@ -75,8 +75,8 @@ SELECT nombre_cliente FROM Clientes;
 
 SELECT * FROM Pedidos;
 
-INSERT INTO Detalles_Pedidos (id_pedido, id_producto, id_cliente, cantidad, subtotal)
-VALUES (1, 1, 1, 15, 15*1000);
+-- INSERT INTO Detalles_Pedidos (id_pedido, id_producto, id_cliente, cantidad, subtotal)
+-- VALUES (1, 1, 1, 15, 15*1000);
 
 
 SELECT nombre_cliente, id_pedido FROM Pedidos;
